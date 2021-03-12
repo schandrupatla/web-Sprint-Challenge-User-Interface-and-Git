@@ -46,14 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* end of css reset */
+/* My style sheet */
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    color:#4f4f4f;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +69,36 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+  
+    header {
+        /* background: rgb(207, 142, 142); */
+        display:flex;
+        justify-items: center;
+    }
+    
+    header nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        padding: 01% 1%;
+        margin-left:33%;
+    }
+    header nav a{
+        display: flex;
+        align-items:flex-end;
+        margin-top: 20px;
+        text-decoration: none;
+        color:#4f4f4f;
+        
+    }
+
+.jumbo{
+    margin:1%;
+    display: flex;
+    justify-content:center;
 }
 
 .container {
@@ -111,6 +146,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1{
+    background-color:teal ;
+}
+.middle-content .boxes .box2{
+    background-color:gold ;
+}
+.middle-content .boxes .box3{
+    background-color:cadetblue ;
+}
+.middle-content .boxes .box4{
+    background-color:coral ;
+}
+.middle-content .boxes .box5{
+    background-color:crimson ;
+}
+.middle-content .boxes .box6{
+    background-color:forestgreen ;
+    
+}
+.middle-content .boxes .box7{
+    background-color:darkorchid ;
+}
+.middle-content .boxes .box8{
+    background-color:hotpink ;
+}
+.middle-content .boxes .box9{
+    background-color:indigo ;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue ;
+}
 
 .bottom-content {
     display: flex;
@@ -144,3 +210,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* about.html styles */
+.about-details{
+    height:25%;
+    margin:1%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.strategy-div, .we-work-div,.places-div,.collaboration-div{
+    width:45%;
+    height:25%;
+    margin:1%;
+
+}
+.about-details div h2{
+    margin-top:4%;
+}
+.btn-learm-more{
+    margin:4% 0 1% 0;
+    padding:2%;
+    width:30%;
+    border: 2px solid black;
+     border-radius:.4rem;
+
+}
+.work-together-div{
+    margin:3% 0;
+}
+.line{ 
+    width:100%;
+    margin:2% 0;
+    border-bottom: 2px dotted #4f4f4f;
+}
+   
